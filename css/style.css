@@ -1,0 +1,27 @@
+.container{
+    background-color: rgb(83, 128, 0);
+    width: 800px;
+    height: 350px;
+}
+
+.logo{
+    width:500px;
+}
+.searchbar{
+    justify-content: center;
+    padding: 90px;
+}
+
+p{
+    float: center;
+    color: rgb(123, 255, 105);
+}
+.mainbar{
+color: hotpink;
+}
+h3{
+    color : rgb(0, 255, 255);
+}
+.inp{
+    justify-content: center;
+}
