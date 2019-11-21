@@ -39,5 +39,6 @@ h3{
 }
 
 .card p {
-    color: black;
+    color: green;
+     text-align: center;
 }
