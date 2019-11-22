@@ -15,8 +15,15 @@ await fetch(`https://api.edamam.com/search?q=${input}&app_id=3a1a3ab4&app_key=d1
 .then(res => res.json())
 .then(result => {
     console.log(result);
+    result.hits.forEach(element => {
+    console.log(element.recipe.shareAs);
+    console.log(element.recipe.image);
+});
+
 }).catch(err => {
 console.error(err)
 })
 };
 document.getElementById('run').addEventListener('click', recipeName );
+
+
