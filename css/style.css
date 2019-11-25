@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(83, 128, 0);
+    background-color: rgb(0, 128, 111);
     width: 500px;
     height: 350px;
 }
@@ -14,7 +14,7 @@
 
 p{
     float: center;
-    color: rgb(123, 255, 105);
+    color: rgb(255, 105, 105);
 }
 .mainbar{
 color: hotpink;
@@ -26,7 +26,7 @@ h3{
     justify-content: center;
 }
 .btn:hover {
-background-color: rgb(255, 81, 0);
+background-color: rgb(208, 255, 0);
 border-end-end-radius: 180px;
 }
 .one {
@@ -45,6 +45,6 @@ color: rgb(0, 30, 128);
 #final container {
 width: 100px;
 height: 200px;
-background-color: coral;
+background-color: rgb(255, 80, 211);
 text-align: center;
 }
