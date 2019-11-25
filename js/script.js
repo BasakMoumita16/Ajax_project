@@ -7,7 +7,7 @@ console.log(div);
 
 // Async ApI here added a extra line of code for resolve the access deny problem//
 
-async function recipeName() 
+async function recipeName()
 {
 const APIcall =  (`https://api.edamam.com/search?q=chicken&app_key=`+ APP_KEY , {
 mode: 'no-cors',
