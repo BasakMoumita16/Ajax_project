@@ -4,47 +4,52 @@
     height: 350px;
 }
 
-.logo{
-    width:500px;
-}
+
 .searchbar{
     justify-content: center;
     padding: 90px;
 }
 
-p{
-    float: center;
-    color: rgb(255, 105, 105);
-}
-.mainbar{
-color: hotpink;
-}
 h3{
     color : rgb(0, 255, 255);
-}
-.inp{
-    justify-content: center;
 }
 .btn:hover {
 background-color: rgb(208, 255, 0);
 border-end-end-radius: 180px;
-}
-.one {
-height: 300px;
-width: 500px;
-background-color: rgb(255, 123, 0);
-};
-.food2{
-height:20px;
-}
 
-.card p {
-color: rgb(0, 30, 128);
-    text-align: center;
 }
-#final container {
-width: 100px;
-height: 200px;
-background-color: rgb(255, 80, 211);
-text-align: center;
+.div{
+    display: grid;
+    grid-template-columns: 2fr;
+    text-align: left;
+    text-size-adjust: 2px;
+    font-family: cursive;
+    background: rgb(100, 237, 207);
+    top:40%;
+    left:80%;
+    padding: 100px;
+    box-sizing: border-box;
+    background: coral;
+    border-radius: 60px;
+    justify-self: stretch;
+}
+.div img{
+    display: grid;
+    width: 350px;
+    height:250px;
+    grid-column-start:1;
+    padding: 1px;
+    border-radius: 80px;
+}
+.div p {
+    display: grid;
+    text-align: right;
+    padding: 1px,2px,50px 80px;
+}
+#row{
+    widows: 300px;
+    height: 10px;
+} 
+#nw{
+    width: 200px;
 }
