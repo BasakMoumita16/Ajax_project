@@ -2,6 +2,7 @@
 
 const APP_KEY = "d1559d3e87e73a1d721adcee728b18c8";
 const div = document.querySelector(".div");
+const para = document.querySelector("#para");
 console.log(div);
 
 
