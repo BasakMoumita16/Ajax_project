@@ -8,3 +8,5 @@
 
 ## Author 
 Moumita Basak
+
+<img src = "https://github.com/BasakMoumita16/Ajax_project/blob/master/Capture2.PNG">
